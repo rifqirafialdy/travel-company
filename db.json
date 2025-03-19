@@ -156,25 +156,29 @@
       { "service": "open trip", "content": "Five countries in one trip! It was exhausting but beyond worth it.", "author": "Ben T.", "details": "Europe, 2023" }
 ]
 ,
+
     "employees": [
-        { "name": "Michael Lee", "position": "CEO", "division": "Management", "isFounder": true },
-        { "name": "Sophia Tan", "position": "Head of Operation", "division": "Operation", "isFounder": true },
-        { "name": "James Wong", "position": "Head of HR", "division": "HR", "isFounder": true },
-        { "name": "Lucas Brown", "position": "Head of Guide", "division": "Guide", "isFounder": false },
-        { "name": "Emily Chen", "position": "Guide", "division": "Guide", "isFounder": false },
-        { "name": "Ravi Singh", "position": "Guide", "division": "Guide", "isFounder": false },
-        { "name": "Diana White", "position": "Head of Product Development", "division": "Product Development", "isFounder": false },
-        { "name": "John Doe", "position": "Product Developer", "division": "Product Development", "isFounder": false },
-        { "name": "Sarah Smith", "position": "Product Developer", "division": "Product Development", "isFounder": false },
-        { "name": "Oliver Jones", "position": "Head of Customer Relations", "division": "Customer Relation", "isFounder": false },
-        { "name": "Liam Chen", "position": "Customer Support", "division": "Customer Relation", "isFounder": false },
-        { "name": "Noah Wang", "position": "Customer Support", "division": "Customer Relation", "isFounder": false },
-        { "name": "Grace Kim", "position": "Head of Finance", "division": "Finance", "isFounder": false },
-        { "name": "Mason Liu", "position": "Accountant", "division": "Finance", "isFounder": false },
-        { "name": "Ethan Zhang", "position": "Accountant", "division": "Finance", "isFounder": false },
-        { "name": "Ava Brown", "position": "Head of Marketing", "division": "Marketing", "isFounder": false },
-        { "name": "Charlotte Lee", "position": "Marketing Specialist", "division": "Marketing", "isFounder": false },
-        { "name": "Amelia Tan", "position": "Marketing Specialist", "division": "Marketing", "isFounder": false }
-      ]
+      { "name": "Michael Lee", "position": "CEO", "division": "Management", "isFounder": true, "birthday": "1975-05-20", "favoritePlace": "Tokyo", "certification": "MBA", "email": "michael.lee@email.com", "phoneNumber": "+1234567890","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Sophia Tan", "position": "Head of Operation", "division": "Operations", "isFounder": true, "birthday": "1980-09-15", "favoritePlace": "Bali", "certification": "PMP", "email": "sophia.tan@email.com", "phoneNumber": "+1234567891","imageUrl":"/teams-images/founders-2.jpg" },
+      { "name": "James Wong", "position": "Head of HR", "division": "HR", "isFounder": true, "birthday": "1982-03-10", "favoritePlace": "Singapore", "certification": "SPHR", "email": "james.wong@email.com", "phoneNumber": "+1234567892","imageUrl":"/teams-images/founders-3.jpg" },
+      { "name": "Lucas Brown", "position": "Head of Guide", "division": "Guide", "isFounder": false, "birthday": "1985-12-02", "favoritePlace": "Nepal", "certification": "Mountain Guide Certification", "email": "lucas.brown@email.com", "phoneNumber": "+1234567893","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Emily Chen", "position": "Guide", "division": "Guide", "isFounder": false, "birthday": "1990-06-22", "favoritePlace": "Swiss Alps", "certification": "Certified Trekking Guide", "email": "emily.chen@email.com", "phoneNumber": "+1234567894","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Ravi Singh", "position": "Guide", "division": "Guide", "isFounder": false, "birthday": "1988-11-11", "favoritePlace": "Himalayas", "certification": "Certified Climbing Guide", "email": "ravi.singh@email.com", "phoneNumber": "+1234567895","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Diana White", "position": "Head of Product Development", "division": "Product Development", "isFounder": false, "birthday": "1987-04-18", "favoritePlace": "New York", "certification": "Product Management Certification", "email": "diana.white@email.com", "phoneNumber": "+1234567896","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "John Doe", "position": "Product Developer", "division": "Product Development", "isFounder": false, "birthday": "1993-07-07", "favoritePlace": "San Francisco", "certification": "Certified Developer", "email": "john.doe@email.com", "phoneNumber": "+1234567897","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Sarah Smith", "position": "Product Developer", "division": "Product Development", "isFounder": false, "birthday": "1992-05-29", "favoritePlace": "London", "certification": "Certified Software Engineer", "email": "sarah.smith@email.com", "phoneNumber": "+1234567898","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Oliver Jones", "position": "Head of Customer Relations", "division": "Customer Relation", "isFounder": false, "birthday": "1984-02-25", "favoritePlace": "Sydney", "certification": "Customer Relations Expert", "email": "oliver.jones@email.com", "phoneNumber": "+1234567899","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Liam Chen", "position": "Customer Support", "division": "Customer Relation", "isFounder": false, "birthday": "1995-09-10", "favoritePlace": "Hong Kong", "certification": "Customer Service Specialist", "email": "liam.chen@email.com", "phoneNumber": "+1234567800","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Noah Wang", "position": "Customer Support", "division": "Customer Relation", "isFounder": false, "birthday": "1996-01-19", "favoritePlace": "Seoul", "certification": "Customer Service Specialist", "email": "noah.wang@email.com", "phoneNumber": "+1234567801","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Grace Kim", "position": "Head of Finance", "division": "Finance", "isFounder": false, "birthday": "1983-10-30", "favoritePlace": "Paris", "certification": "CFA", "email": "grace.kim@email.com", "phoneNumber": "+1234567802","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Mason Liu", "position": "Accountant", "division": "Finance", "isFounder": false, "birthday": "1991-08-14", "favoritePlace": "Shanghai", "certification": "CPA", "email": "mason.liu@email.com", "phoneNumber": "+1234567803","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Ethan Zhang", "position": "Accountant", "division": "Finance", "isFounder": false, "birthday": "1994-12-25", "favoritePlace": "Beijing", "certification": "CPA", "email": "ethan.zhang@email.com", "phoneNumber": "+1234567804","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Ava Brown", "position": "Head of Marketing", "division": "Marketing", "isFounder": false, "birthday": "1986-03-02", "favoritePlace": "Los Angeles", "certification": "Digital Marketing Certification", "email": "ava.brown@email.com", "phoneNumber": "+1234567805","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Charlotte Lee", "position": "Marketing Specialist", "division": "Marketing", "isFounder": false, "birthday": "1997-04-12", "favoritePlace": "Bangkok", "certification": "Certified Marketing Professional", "email": "charlotte.lee@email.com", "phoneNumber": "+1234567806","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Amelia Tan", "position": "Marketing Specialist", "division": "Marketing", "isFounder": false, "birthday": "1998-11-03", "favoritePlace": "Singapore", "certification": "Certified Marketing Professional", "email": "amelia.tan@email.com", "phoneNumber": "+1234567807","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Chris Hemsworth", "position": "Operation Staff", "division": "Operations", "isFounder": false, "birthday": "1994-07-30", "favoritePlace": "Jakarta", "certification": "Certified Operations Specialist", "email": "henry.lim@email.com", "phoneNumber": "+1234567808","imageUrl":"/teams-images/founders-1.jpg" },
+      { "name": "Scarlett Johansson", "position": "HR Staff", "division": "HR", "isFounder": false, "birthday": "1995-02-18", "favoritePlace": "Kuala Lumpur", "certification": "Certified HR Professional", "email": "isabella.wong@email.com", "phoneNumber": "+1234567809","imageUrl":"/teams-images/founders-1.jpg" }
+    ]
   }
+  
   
