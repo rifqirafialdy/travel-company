@@ -36,7 +36,7 @@ export const ServicesProvider = ({ children }: { children: ReactNode }) => {
             setError(null);
 
             try {
-                const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/services`);
+                const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/services`);
                 console.log(response);
                 
                 if (!response.ok) {
