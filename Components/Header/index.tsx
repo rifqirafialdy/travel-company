@@ -45,8 +45,8 @@ const Header: FC = () => {
       {isMenuOpen && (
         <div className="fixed inset-0 bg-amber-300 text-gray-100 flex flex-col items-center justify-center gap-10 z-10">
           <Link href="/About-Us" className="text-3xl font-general hover:text-amber-700" onClick={() => setIsMenuOpen(false)}>Company</Link>
-          <h1 className="text-3xl font-general hover:text-amber-700">Services</h1>
-          <h1 className="text-3xl font-general hover:text-amber-700">Teams</h1>
+          <Link href={"/Services"} className="text-3xl font-general hover:text-amber-700">Services</Link>
+          <Link href={"/Teams"} className="text-3xl font-general hover:text-amber-700">Teams</Link>
         </div>
       )}
     </div>
