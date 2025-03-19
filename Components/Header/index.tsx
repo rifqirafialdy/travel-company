@@ -37,7 +37,7 @@ const Header: FC = () => {
           <div className={`hidden md:flex gap-5 uppercase text-lg tracking-widest ${isScrolled ? "text-gray-700" : "text-gray-200"}`}>
             <Link href="/About-Us" className="font-general hover:text-amber-200">Company</Link>
             <Link href={"/Services"} className="font-general hover:text-amber-200">Services</Link>
-            <h1 className="font-general hover:text-amber-200">Teams</h1>
+            <Link href={"/Teams"} className="font-general hover:text-amber-200">Teams</Link>
           </div>
         </div>
       </div>

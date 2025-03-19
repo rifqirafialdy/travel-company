@@ -1,0 +1,180 @@
+{
+    "services": [
+      {
+        "id": 0,
+        "name": "Personal Planner",
+        "options": [
+          {
+            "type": "Standard",
+            "price": 100,
+            "quota": null,
+            "perks": ["itinerary list","recommendation list of transportation","recommendation list of accomodation","recommendation list of activities and places"],
+            "itinerary": [],
+            "description": null
+          },
+          {
+            "type": "Plus",
+            "price": 200,
+            "quota": null,
+            "perks": ["itinerary list","recommendation list of transportation","recommendation list of accomodation","recommendation list of activities and places","booking all the tickets","visa assistant"],
+            "itinerary": [],
+            "description": null
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Private Tour",
+        "options": [
+          {
+            "type": "Nepal Tour",
+            "price": 1200,
+            "quota": null,
+            "perks": [],
+            "itinerary": ["Kathmandu", "Pokhara", "Himalayan Treks"],
+            "description": "Explore Kathmandu, Pokhara, and Himalayan treks."
+          },
+          {
+            "type": "Japan Tour",
+            "price": 1500,
+            "quota": null,
+            "perks": [],
+            "itinerary": ["Tokyo", "Kyoto", "Osaka", "Cultural Sites"],
+            "description": "Visit Tokyo, Kyoto, Osaka, and cultural sites."
+          },
+          {
+            "type": "Southeast Asia Adventure",
+            "price": 2500,
+            "quota": null,
+            "perks": [],
+            "itinerary": ["Thailand", "Vietnam", "Cambodia", "Laos"],
+            "description": "Journey through Thailand, Vietnam, Cambodia, and Laos."
+          },
+          {
+            "type": "European Tour",
+            "price": 3000,
+            "quota": null,
+            "perks": [],
+            "itinerary": ["Paris", "Rome", "Berlin", "London"],
+            "description": "Discover Paris, Rome, Berlin, and London."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Local Guide",
+        "options": [
+          {
+            "type": "Half Day",
+            "price": 50,
+            "quota": null,
+            "perks": [
+              "Personal guide for up to 4 hours",
+              "Cultural and historical insights",
+              "Recommendations for dining and shopping"
+            ],
+            "itinerary": [],
+            "description": "Half-day local guide service."
+          },
+          {
+            "type": "Full Day",
+            "price": 90,
+            "quota": null,
+            "perks": [
+              "Personal guide for up to 8 hours",
+              "Customized itinerary",
+              "Transportation arrangement assistance"
+            ],
+            "itinerary": [],
+            "description": "Full-day local guide service."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Open Trip",
+        "options": [
+          {
+            "type": "Bali Adventure",
+            "price": 500,
+            "quota": 10,
+            "perks": [],
+            "itinerary": [
+              "Arrival in Bali, Explore Kuta",
+              "Ubud - Rice terraces, Monkey Forest, Coffee Plantation",
+              "Nusa Penida Island Tour",
+              "Relaxation in Seminyak, Departure"
+            ],
+            "description": "Explore Bali with other travelers, including Kuta, Ubud, and Nusa Penida."
+          },
+          {
+            "type": "Japan Sakura Trip",
+            "price": 2000,
+            "quota": 15,
+            "perks": [],
+            "itinerary": [
+              "Tokyo City Tour",
+              "Mount Fuji & Hakone",
+              "Kyoto Temples & Gardens",
+              "Osaka Food Tour",
+              "Departure from Tokyo"
+            ],
+            "description": "Join our special Sakura trip across Japan, including Tokyo, Kyoto, and Osaka."
+          },
+          {
+            "type": "Europe Backpacking",
+            "price": 3500,
+            "quota": 8,
+            "perks": [],
+            "itinerary": [
+              "Paris, France",
+              "Rome, Italy",
+              "Berlin, Germany",
+              "Amsterdam, Netherlands",
+              "London, United Kingdom"
+            ],
+            "description": "Backpacking adventure across Europe's iconic cities."
+          }
+        ]
+      }
+    ],
+    "testimonials": [
+      { "service": "personal planner", "content": "The itinerary was spot-on! Got to see all the highlights of Bali without any stress.", "author": "Sarah M.", "details": "Bali, 2025" },
+      { "service": "personal planner", "content": "The recommendations were spot-on. From activities to restaurants, everything was just perfect.", "author": "Julia A.", "details": "Paris, 2024" },
+      { "service": "personal planner", "content": "They handled all the boring stuff so I could focus on having fun. Loved the convenience.", "author": "Oscar P.", "details": "Rome, 2023" },
+
+      { "service": "private tour", "content": "Hiking through the Himalayas with a personal guide was a dream come true.", "author": "Anika P.", "details": "Nepal, 2025" },
+      { "service": "private tour", "content": "Exploring Pokhara and trekking in the Himalayas was life-changing. Thank you for making it so easy!", "author": "Ravi K.", "details": "Nepal, 2024" },
+      { "service": "private tour", "content": "The Japan tour was incredible! Kyoto’s cultural sites were breathtaking.", "author": "Kevin L.", "details": "Japan, 2023" },
+
+      { "service": "local guide", "content": "Having a local guide made my short trip so much more meaningful.", "author": "Daniel W.", "details": "Vietnam, 2025" },
+      { "service": "local guide", "content": "Best guide ever! Super friendly and knowledgeable. Customized just for me.", "author": "Emily K.", "details": "Thailand, 2024" },
+      { "service": "local guide", "content": "Exploring with a local made everything so much easier. A fantastic experience!", "author": "Ahmed I.", "details": "Morocco, 2023" },
+
+      { "service": "open trip", "content": "The perfect balance of fun and relaxation. Ubud’s rice terraces are a must-see!", "author": "Lucas S.", "details": "Bali, 2025" },
+      { "service": "open trip", "content": "Witnessing the cherry blossoms in Japan was a bucket-list experience.", "author": "Aiko N.", "details": "Japan, 2024" },
+      { "service": "open trip", "content": "Five countries in one trip! It was exhausting but beyond worth it.", "author": "Ben T.", "details": "Europe, 2023" }
+]
+,
+    "employees": [
+        { "name": "Michael Lee", "position": "CEO", "division": "Management", "isFounder": true },
+        { "name": "Sophia Tan", "position": "Head of Operation", "division": "Operation", "isFounder": true },
+        { "name": "James Wong", "position": "Head of HR", "division": "HR", "isFounder": true },
+        { "name": "Lucas Brown", "position": "Head of Guide", "division": "Guide", "isFounder": false },
+        { "name": "Emily Chen", "position": "Guide", "division": "Guide", "isFounder": false },
+        { "name": "Ravi Singh", "position": "Guide", "division": "Guide", "isFounder": false },
+        { "name": "Diana White", "position": "Head of Product Development", "division": "Product Development", "isFounder": false },
+        { "name": "John Doe", "position": "Product Developer", "division": "Product Development", "isFounder": false },
+        { "name": "Sarah Smith", "position": "Product Developer", "division": "Product Development", "isFounder": false },
+        { "name": "Oliver Jones", "position": "Head of Customer Relations", "division": "Customer Relation", "isFounder": false },
+        { "name": "Liam Chen", "position": "Customer Support", "division": "Customer Relation", "isFounder": false },
+        { "name": "Noah Wang", "position": "Customer Support", "division": "Customer Relation", "isFounder": false },
+        { "name": "Grace Kim", "position": "Head of Finance", "division": "Finance", "isFounder": false },
+        { "name": "Mason Liu", "position": "Accountant", "division": "Finance", "isFounder": false },
+        { "name": "Ethan Zhang", "position": "Accountant", "division": "Finance", "isFounder": false },
+        { "name": "Ava Brown", "position": "Head of Marketing", "division": "Marketing", "isFounder": false },
+        { "name": "Charlotte Lee", "position": "Marketing Specialist", "division": "Marketing", "isFounder": false },
+        { "name": "Amelia Tan", "position": "Marketing Specialist", "division": "Marketing", "isFounder": false }
+      ]
+  }
+  

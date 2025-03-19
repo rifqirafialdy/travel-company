@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FC } from "react";
 
 const ServicesHead: FC = () => {
@@ -13,10 +14,21 @@ const ServicesHead: FC = () => {
             <div className="flex flex-col gap-4 mt-8 md:mt-0 text-white text-lg">
                 <h2 className="font-bold text-xl md:text-2xl ">Our Services:</h2>
                 <ul className="font-general list-disc list-inside space-y-2">
-                    <li>Private Tour </li>
-                    <li>Local Guide </li>
-                    <li>Open Trip </li>
-                    <li>Personal Planner</li>
+                <ul className="font-general list-disc list-inside space-y-2">
+    <li>
+        <Link href="/Services/private-tour">Private Tour</Link>
+    </li>
+    <li>
+        <Link href="/Services/local-guide">Local Guide</Link>
+    </li>
+    <li>
+        <Link href="/Services/open-trip">Open Trip</Link>
+    </li>
+    <li>
+        <Link href="/Services/personal-planner">Personal Planner</Link>
+    </li>
+</ul>
+
                 </ul>
             </div>
             </div>

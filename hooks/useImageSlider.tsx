@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 
-const useImageSlider = (imagesLength: number, intervalTime: number = 5000) => {
+const useImageSlider = (imagesLength: number, intervalTime: number = 3000) => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
