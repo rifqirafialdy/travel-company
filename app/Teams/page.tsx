@@ -1,4 +1,3 @@
-import AboutUsContent from "@/Components/About-Us";
 import Header from "@/Components/Header";
 import TeamsHead from "@/Components/Teams";
 import TeamsList from "@/Components/Teams/TeamsList";
