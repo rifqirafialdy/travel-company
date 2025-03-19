@@ -24,11 +24,14 @@ export const TestimonialsProvider = ({ children }: { children: ReactNode }) => {
 
     useEffect(() => {
         const fetchTestimonials = async () => {
+           
             setLoading(true);
             setError(null);
 
             try {
+                console.log(process.env.NEXT_PUBLIC_API_URL);
                 const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/testimonials`);
+                console.log("Response", response);
                 if (!response.ok) {
                     throw new Error('Failed to fetch testimonials');
                 }
